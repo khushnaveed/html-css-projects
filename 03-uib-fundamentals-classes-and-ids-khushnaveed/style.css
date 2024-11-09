@@ -1,0 +1,32 @@
+/* What a mess! */
+
+.important {
+  color: blue;
+}
+
+#highlight {
+  color: blue;
+}
+
+/* using class attribute */
+.quotes,
+.class-id {
+  color: blue;
+}
+
+/* using id attribute */
+#title {
+  color: blue;
+}
+
+h2 {
+  color: red;
+}
+
+header {
+  background-color: aqua;
+}
+
+main {
+  background-color: antiquewhite;
+}

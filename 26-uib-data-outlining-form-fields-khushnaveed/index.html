@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Prettier Form</title>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="toggle.css">
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>Tell us more</h1>
+
+        <form action="https://formspree.io/f/xzzpzpln" method="post">
+
+          <div class="names">
+            <label for="fname">First Name *</label><br />
+            <input type="text" name="first name" id="fname" required/>
+
+            <label for="lname">Last Name</label><br />
+            <input type="text" name="last name" id="lname" />
+          </div>
+
+          <div class="mail">
+            <label for="email">Your email *</label><br />
+            <input type="email" name="email" id="email" required/><br />
+          </div>
+
+          <div class="about">
+            <label for="about">Tell us about yourself *</label><br />
+            <textarea name="about yourself" id="about" required></textarea><br />
+          </div>
+
+          <div class="toggle">
+            <label for="know_more">Want to know more?</label>
+            <label class="switch">
+              <input type="checkbox" />
+              <span class="slider"></span> 
+            </label><br /><br>
+            <input type="submit" value="Submit" >
+          </div>
+        </form>
+      </div>
+
+    </main>
+  </body>
+</html>

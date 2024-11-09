@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #eaf2a6;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+main div:nth-of-type(1) {
+  height: 165px;
+  border-radius: 5px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(2) {
+  height: 253px;
+  border-radius: 8px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(3) {
+  height: 199px;
+  border-radius: 4px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(4) {
+  height: 135px;
+  border-radius: 4px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(5) {
+  height: 217px;
+  border-radius: 6px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(6) {
+  height: 199px;
+  border-radius: 8px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(7) {
+  height: 202px;
+  border-radius: 7px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(8) {
+  height: 130px;
+  border-radius: 5px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(9) {
+  height: 165px;
+  border-radius: 8px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(10) {
+  height: 177px;
+  border-radius: 5px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(11) {
+  height: 188px;
+  border-radius: 7px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(12) {
+  height: 224px;
+  border-radius: 8px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(13) {
+  height: 109px;
+  border-radius: 6px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(14) {
+  height: 249px;
+  border-radius: 6px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(15) {
+  height: 101px;
+  border-radius: 4px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(16) {
+  height: 201px;
+  border-radius: 7px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(17) {
+  height: 152px;
+  border-radius: 4px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(18) {
+  height: 298px;
+  border-radius: 7px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(19) {
+  height: 146px;
+  border-radius: 4px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(20) {
+  height: 294px;
+  border-radius: 5px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(21) {
+  height: 221px;
+  border-radius: 8px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(22) {
+  height: 136px;
+  border-radius: 6px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(23) {
+  height: 191px;
+  border-radius: 4px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(24) {
+  height: 181px;
+  border-radius: 8px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(25) {
+  height: 115px;
+  border-radius: 4px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(26) {
+  height: 261px;
+  border-radius: 8px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(27) {
+  height: 165px;
+  border-radius: 7px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(28) {
+  height: 164px;
+  border-radius: 8px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(29) {
+  height: 231px;
+  border-radius: 6px;
+  animation: change-height 2s ease-in-out infinite;
+}
+main div:nth-of-type(30) {
+  height: 266px;
+  border-radius: 7px;
+  animation: change-height 2s ease-in-out infinite;
+}
+
+main > div {
+  width: 20px;
+  background: purple;
+}
+
+main > div:nth-of-type(odd) {
+  background: radial-gradient(circle at -5px 30px, #c57eda, #730092);
+  align-self: flex-start;
+  transform: translateY(-12px);
+}
+
+main > div:nth-of-type(even) {
+  background: radial-gradient(circle at 10px 300px, #ffffff, #ff00ac);
+  align-self: flex-end;
+  transform: translateY(12px);
+}
+
+@keyframes change-height {
+  50% {
+    height: 0px;
+  }
+}/*# sourceMappingURL=main.css.map */

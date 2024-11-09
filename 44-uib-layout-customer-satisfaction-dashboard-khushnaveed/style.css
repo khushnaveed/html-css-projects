@@ -1,0 +1,103 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+h1{
+    width: fit-content;
+    text-align: left; 
+    border-bottom: 5px solid ;
+    color: purple;;
+    font-weight: lighter;
+    padding: 15px;
+    margin: 0;
+}
+
+/* emojis */
+img{
+    width: 20px;
+}
+
+/* table */
+table{
+    font-size: large;
+    border-top: 2px solid #cec8c8;
+    border-bottom: 2px solid #cec8c8;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+/* row bottom border */
+tr{
+    border-bottom: 1px solid #cec8c8; 
+}
+
+/* avatar */
+tr td:nth-child(2) img{
+    border: 3px solid #c3c0c0;
+    width: 35px;
+    border-radius: 25px;
+    padding: 0;
+}
+
+/* main 1st row */
+tr:nth-child(1),
+tr:nth-child(2){
+    background-color: #f8f2eb;
+    padding: 10px 40px;
+}
+
+/* table cells */
+td{
+    padding: 25px;
+}
+
+/* aliging the numeric data columns to right */
+tr:not(:nth-child(1)) td:nth-child(5),
+tr:not(:nth-child(1)) td:nth-child(6){
+    text-align: right;
+}
+
+/* hovering on rows */
+table tr:nth-child(3):hover,
+table tr:nth-child(4):hover,
+table tr:nth-child(5):hover,
+table tr:nth-child(6):hover,
+table tr:nth-child(7):hover{
+    background-color: white;
+    box-shadow: 2px 2px 15px #737373;
+}
+
+/* drop down mwnu */
+ul{
+    border-collapse: collapse;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: 130px;
+    background-color: white;
+}
+
+/* list items in drop down mwnu */
+ul li{
+    border: 1px solid #c3c0c0;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+/* hiding drop down menu */
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    right: 22%;
+}
+
+/* displaying drop down mwnu upin hovering */
+img[alt="more"]:hover + .dropdown-menu{
+    cursor: pointer;
+    display: block;
+}

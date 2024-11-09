@@ -1,0 +1,48 @@
+/* Original styles - don't edit these! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg1 {
+  background: url(bg1.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bg2 {
+  background: url(bg2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Add your styles below here*/
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(4 ,minmax(auto, auto));
+  grid-gap: 0.5em;
+  background-color: rgb(75, 72, 72);
+  padding: 0.5em;
+}
+
+.container > div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  height: 40vh;
+  
+}
+
+.container > div > div{
+  background-color: #080808a6;
+  margin: 5px;
+  padding: 10px;
+}
+
+.container > div:hover{
+  box-shadow: inset 0px 0px 100px 10px #072bfa98;
+}

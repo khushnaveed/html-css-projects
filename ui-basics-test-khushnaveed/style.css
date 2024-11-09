@@ -1,0 +1,46 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: cyan;
+}
+
+main {
+  padding-top: 80px;
+}
+
+.list ul li:nth-child(2) {
+  color: blue;
+}
+
+.images  img,
+.images .image {
+  display: inline-block;
+}
+
+.footer-section,
+.image-section,
+.link-section {
+  font-size: 2em;
+  color: rgb(255, 165, 0);
+  text-transform: uppercase;
+}
+
+footer a:visited {
+  color: green;
+}
+
+footer a:hover {
+  color: red;
+}
+
+.box-model{
+    padding: 5px;
+    margin: 10vw;
+
+}
+
+.images a > img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}

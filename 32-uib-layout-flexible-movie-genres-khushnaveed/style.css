@@ -1,0 +1,55 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.genres{
+  display: flex;
+  flex-wrap: wrap;
+}
+.genres div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 200px;
+  height: 100px;
+  font-size: 2em;
+}
+
+.action, .thriller, .horror, .drama{
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.action {
+  background-color: rgb(30, 144, 255);
+}
+
+.thriller {
+  background-color: rgb(190, 178, 178);
+}
+
+.comedy {
+  background-color: rgb(255, 214, 30);
+  flex-grow: 6; 
+  flex-wrap: wrap;
+  flex-shrink: 1;
+}
+
+.horror {
+  color: white;
+  background-color: rgb(0, 0, 0);
+}
+
+.drama {
+  background-color: rgb(169, 169, 169);
+}
+
+.romance {
+  background-color: rgb(255, 0, 0);
+  flex-grow: 3;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+}

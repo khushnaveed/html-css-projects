@@ -1,0 +1,65 @@
+@font-face {
+    src: url(./Lobster/Lobster-Regular.ttf);
+    font-family: lobster;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    background-color: #dadada;
+    box-shadow: 10px 10px 18px #918e8e;
+    position: relative;
+}
+
+a{
+    font-family: lobster;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px;
+    width: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+a::before{
+    content: "";
+    width: 5px;
+    height: 100%;
+    transition: 1s;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+a:nth-child(1)::before{
+    background-color: #5366c3;
+}
+
+a:nth-child(2)::before{
+    background-color:  #3f83c0;
+}
+
+a:nth-child(3)::before{
+    background-color: #2aa1bd;
+}
+
+a:nth-child(4)::before{
+    background-color: #15bfbb;
+}
+
+a:hover{
+    color: white;
+}
+
+a:hover::before{
+    width: 100%;
+}

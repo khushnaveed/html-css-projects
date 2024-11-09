@@ -1,0 +1,55 @@
+h1 {
+  color: #cdf7ebab;
+  background-color: #f894affe;
+}
+
+h2 {
+  color: #ff04ff;
+  background-color: #babebd91;
+}
+
+.main-topic > h3 {
+  background-color: #f4f41f;
+}
+
+section.main-topic p:first-of-type{
+    background-color: #e45bb6;
+}
+
+.partners > p {
+  background-color: #30d2f6;
+}
+
+.contact{
+    color: #00ccfa;
+}
+
+.contact-info > ul{
+    background-color: #30d2f6;
+}
+
+.contact-info > h4{
+    color: #f504b8;
+}
+
+/* Change the color of all a links on :hover*/
+a:hover{
+    color: rgb(244, 0, 0);
+}
+
+/*Apply an :active style to all a links*/
+a:active{
+    color: #3d3deb;
+
+}
+
+/*Apply an  :visited style to all a links*/
+a:visited{
+    color: #a9ddb3;
+
+}
+
+/*Change the color of the text under the two subtopic headers on :hover*/
+.main-topic h3 ~ p:hover{
+    color: #3d3deb;
+}

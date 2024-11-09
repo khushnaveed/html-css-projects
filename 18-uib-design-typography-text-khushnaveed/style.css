@@ -1,0 +1,108 @@
+body {
+    font-family: "Playwrite ES Deco", sans-serif;
+}
+
+/* styling for task 1 */
+h1{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+li{
+    font-weight: 300;
+}
+
+.heading{
+    text-transform: uppercase;
+    text-shadow: 1px 2px 5px #00ffc8;
+}
+
+.note{
+    font-weight: 700;
+    font-style: italic;
+}
+
+.todo-item{
+    text-decoration: line-through;
+}
+
+/* styling for task 2 */
+#quotes li::before
+{
+    position: relative;
+    content: '';
+    padding: 12px;
+    background-image: url(./quote.png);
+    top: 15px;
+    margin: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#quotes li::after{
+    position: absolute;
+    content: '';
+    padding: 12px;
+    margin: 5px;
+    background-image: url(./quote.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transform: rotate(180deg);
+}
+
+/* styling for task 3 */
+.pdf a::after{
+    position: relative;
+    content: '';
+    padding: 12px;
+    top: 17px;
+    left: 4px;
+    margin: 5px;
+    background-image: url(./images/icons8-pdf-16.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.xls a::after{
+    position: relative;
+    content: '';
+    padding: 12px;
+    top: 17px;
+    left: 4px;
+    margin: 5px;
+    background-image: url(./images/icons8-ms-excel-30.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.doc a::after{
+    position: relative;
+    content: '';
+    padding: 12px;
+    top: 17px;
+    left: 4px;
+    margin: 5px;
+    background-image: url(./images/icons8-ms-word-64.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* styling for task 4 */
+
+
+.sandwich::before{
+    content: '';
+    display: block;
+    padding: 5px;
+    background: linear-gradient(to right,#3399ff,#99ffcc,#ffcc66);
+}
+
+.sandwich::after{
+    content: '';
+    display: block;
+    padding: 5px;                                                 
+    background: linear-gradient(to left,#3399ff,#99ffcc,#ffcc66);
+}
+
+.sandwich {
+    border: 2px solid black;
+    margin: 5px;
+}

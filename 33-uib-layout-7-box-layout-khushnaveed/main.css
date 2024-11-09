@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  border: 5px solid red;
+  flex-wrap: wrap;
+}
+
+.flex-container div {
+  height: 150px;
+}
+/* --------------------------------------------------- */
+
+/* setting backgroud colors */
+.flex-item-1 {
+  background-color: purple;
+}
+
+.flex-item-2 {
+  background-color: blueviolet;
+}
+
+.flex-item-3 {
+  background-color: blue;
+}
+
+.flex-item-4 {
+  background-color: green;
+}
+
+.flex-item-5 {
+  background-color: yellow;
+}
+
+.flex-item-6 {
+  background-color: darkorange;
+}
+
+.flex-item-7 {
+  background-color: red;
+}
+/* --------------------------------------------------- */
+
+/* For screen widths up to 600px */
+@media (max-width: 600px) {
+  .flex-container div {
+    width: 100%;
+  }
+}
+
+/* For screen widths between 601px and 800px */
+@media (min-width: 601px) and (max-width: 800px) {
+  .flex-item-1,
+  .flex-item-2 {
+    width: 100%;
+  }
+
+  .flex-item-3,
+  .flex-item-4,
+  .flex-item-5 {
+    width: 33.33%;
+  }
+
+  .flex-item-6,
+  .flex-item-7 {
+    width: 100%;
+  }
+}
+
+/* For screen widths 801px and up  */
+@media (min-width: 801px) {
+  .flex-item-1,
+  .flex-item-2 {
+    width: 50%;
+  }
+
+  .flex-item-3,
+  .flex-item-4,
+  .flex-item-5 {
+    width: 33.33%;
+  }
+
+  .flex-item-6,
+  .flex-item-7 {
+    width: 50%;
+  }
+}
+/* --------------------------------------------------- */

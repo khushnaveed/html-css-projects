@@ -1,0 +1,155 @@
+@font-face {
+    src: url(./Work_Sans/WorkSans-VariableFont_wght.ttf);
+    font-family: worksan;
+  }
+
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    flex-direction: column;
+    font-family: worksan, sans-serif;
+}
+
+/* -----------------header------------------------ */
+header{
+    display: flex;
+    margin: 1% 10% 1% 10%;
+    font-weight: bold;
+}
+
+.h1,h2{
+    display: flex;
+    flex: 1;
+}
+
+.h2 a,
+.h1 p{
+    padding: 10px;
+}
+
+.h2 a{
+    color: black;
+    text-decoration: none;
+}
+
+.h2 a:hover
+{
+    color: #726d6d;
+    border-bottom: solid 2px #726d6d;
+}
+
+.h2 i{
+    display: none;
+}
+/* ------------------content----------------------- */
+.content{
+  flex: 1;
+  padding: 0% 10% 6% 10%;
+}
+
+.one p:nth-child(1){
+    font-weight:600;
+    font-size: x-large;
+}
+
+.one p:nth-child(2){
+    font-size: medium;
+}
+
+.two{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 50px 0px 50px;
+}
+
+.two div {
+    color: white;
+    background-color: black;
+    padding: 2px 25px 2px 25px;
+}
+
+.twoa a{
+    display: flex;
+    font-size: small;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.twoa a:hover{
+    text-decoration: underline;
+}
+
+.three{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 100%;
+    width: 85%;
+    flex: 1;
+    padding-left: 60px;
+    flex-wrap: wrap;
+}
+
+.three div{
+    flex-grow: 1;
+    text-align: left;
+    margin: 20px;
+    height: 40vh;
+}
+
+.pic1,
+.pic2,
+.pic3{
+    color: white;
+    font-size: x-large;
+    font-weight:500;
+    text-shadow: 2px 0px #726d6d;
+    padding: 50px;
+    background-size:cover;
+}
+
+.pic1{
+    background-image: url(./images/white-box.jpg);
+    background-position: center;
+}
+
+.pic2{
+    background-image: url(./images/room.jpg);
+    background-position: left;
+}
+
+.pic3{
+    background-image: url(./images/black-white.jpg);
+    background-position: center;
+}
+
+.three img{
+    width: 6%;
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 51px;
+    border: 8px solid #6c6a6a35;
+}
+
+/* -----------------footer------------------------ */
+footer {
+  color: rgb(70, 69, 69);
+  text-align: center;
+}
+
+/* -----------------media queries----------------- */
+@media (max-width: 650px){
+    .h2 i{
+        display: block;
+        padding: 20px;
+    }
+    
+    .h2 a{
+        display: none;
+    }
+
+}

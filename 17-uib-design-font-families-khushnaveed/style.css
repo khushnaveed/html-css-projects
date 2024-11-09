@@ -1,0 +1,22 @@
+@font-face {
+  src: url(./Margarine/Margarine-Regular.ttf);
+  font-family: margarine;
+}
+
+body {
+  font-family: margarine;
+}
+
+
+h1, h2, h3 {
+  font-family: margarine, serif;
+}
+
+main {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
+}
+

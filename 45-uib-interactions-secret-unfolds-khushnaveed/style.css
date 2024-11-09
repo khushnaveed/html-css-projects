@@ -1,0 +1,60 @@
+
+.container{
+    padding: 0;
+    width: 16vw;
+    height: 30vh;
+    /* border: 2px solid black; */
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 200px 750px;
+}
+
+.box{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    transition: 2s;
+}
+
+.box1{
+    background-color: steelblue;
+    top: 0px;
+    left: 0px;
+}
+
+.box2{
+    background-color: dimgray;
+    top: 0px;
+    right: 0px;
+}
+
+.box3{
+    background-color:yellow;
+    bottom: 0px;
+    left: 0px;
+}
+
+.box4{
+    background-color:rosybrown;
+    bottom: 0px;
+    right: 0px;
+}
+
+
+.container:hover .box1{
+    transform: translateX(-144px) rotate(90deg);
+}
+
+.container:hover .box2{
+    transform: translateX(144px) rotate(-90deg);
+}
+
+.container:hover .box3{
+    transform: translateX(-144px) rotate(-90deg);
+}
+
+.container:hover .box4{
+    transform: translateX(144px) rotate(90deg);
+}

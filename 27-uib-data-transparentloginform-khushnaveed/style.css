@@ -1,0 +1,65 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(#00000080, #00000080),
+    url("./assets/background.jpg");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  color: white;
+  border-bottom: 5px solid #3dbe3d;
+  font-size: 50px;
+  padding: 5px;
+}
+
+.login_form h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 200px;
+  margin-right: 100px;
+}
+i {
+  padding-top: 30px;
+}
+
+input {
+  color: white;
+  background: transparent;
+  font-size: medium;
+  padding: 10px 10px 10px 1px;
+  margin: 0;
+  border-style: none;
+}
+
+.input_fields {
+  border-bottom: 2px solid #3dbe3d;
+}
+::placeholder {
+  color: white;
+  font-weight: bold;
+}
+
+input[type="submit"] {
+  border: 2px solid #3dbe3d;
+  margin: 30px 30px 30px 10px;
+  border-radius: 5px;
+  width: 90%;
+}
+
+input[type="submit"]:hover {
+  background-color: grey;
+}
+
+input:focus {
+  border-style: none;
+  border: none;
+  outline: none;
+}

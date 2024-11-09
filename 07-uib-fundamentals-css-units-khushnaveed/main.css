@@ -1,0 +1,57 @@
+/* Create a top-level heading where the font size is 12% of the viewport width
+Set the height of this element to 100% of the viewport height. Add just enough text so that it fits on one line. */
+h1 {
+  font-size: 12vw;
+  height: 100vh;
+}
+
+/* Set its background color to lightpink
+Set its width to `50%` of the width of its parent's content area */
+section {
+  background-color: lightpink;
+  width: 50em;
+}
+
+/* Set the font size of the first paragraph to 18px */
+section p:first-child {
+  font-size: 18px;
+}
+
+/* Set the font size of the second paragraph to 3% of the width of the viewport */
+section p:nth-of-type(2) {
+  font-size: 3vw;
+}
+
+/* Set the font size of the third paragraph to 5% of the height of the viewport */
+section p:nth-of-type(3) {
+  font-size: 5vh;
+}
+
+/* Set its background color to lightblue
+Set its font size to 32px */
+section:nth-of-type(2) {
+  background-color: lightblue;
+  font-size: 32px;
+}
+
+/* Set the font size of the first paragraph to 18px */
+section:nth-of-type(2) > p:first-child {
+  font-size: 18px;
+}
+
+/* Set the font size of the second paragraph to 100% of the font size of the parent */
+section:nth-of-type(2) > p:nth-of-type(2) {
+    font-size: 1em;
+}
+
+/* Set the font size of the third paragraph to 100% of the font size of root elementS */
+section:nth-of-type(2) > p:last-child{
+    font-size: 1rem;
+}
+
+/* Create an orange box with a width equal to 80% of the viewport width and a height equal to 50% of the viewport height. */
+.box{
+    background-color:  orange;
+    width: 80vw;
+    height: 50vh;
+}

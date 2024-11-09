@@ -1,0 +1,15 @@
+
+body{
+  color: greenyellow;
+}
+
+p,div:first-of-type, h2{
+  color: palegoldenrod;
+}
+
+h1,
+h2>b,
+div:last-child,
+main>button{
+  color: greenyellow;
+}

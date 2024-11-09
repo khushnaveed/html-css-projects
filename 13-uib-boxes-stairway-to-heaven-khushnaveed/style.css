@@ -1,0 +1,96 @@
+/* css styling for task 1 */
+
+.container1{
+    width: 48.5vw;
+    height: 98vh;
+    display: inline-block;
+    border: 10px solid #e659b5;
+    margin: 5px;
+    box-sizing: border-box;
+    
+}
+
+.row1a,
+.row2a,
+.row3a,
+.row4a{
+    height: 23.vh;
+    box-sizing: border-box;
+    margin: 0.5px;
+}
+
+.row1a>div,
+.row2a>div,
+.row3a>div,
+.row4a>div
+{
+    width: 11.66vw;
+    height: 23.59vh;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 0.1px;
+    
+}
+
+.row1a>div:nth-child(4),
+.row2a>div:nth-child(3),
+.row3a>div:nth-child(2),
+.row4a>div:nth-child(1){
+    background-color: #59f703;
+}
+
+.row2a>div:nth-child(3),
+.row4a>div:nth-child(1){
+    border: 12px solid #7f7575;
+}
+
+
+
+/* css styling for task 3 */
+.container2{
+    width: 48.5vw;
+    height: 96.5vh;
+    display: inline-block;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.row1b,
+.row2b,
+.row3b,
+.row4b{
+    height: 22vh;
+    padding: 1px;
+}
+
+
+.row1b>div,
+.row2b>div,
+.row3b>div,
+.row4b>div
+{
+    width: 11.8vw;
+    height: 22.6vh;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 1px;
+    
+}
+
+
+.row1b>div:nth-child(1),
+.row2b>div:nth-child(2),
+.row3b>div:nth-child(3),
+.row4b>div:nth-child(4){
+    background-color: #f7e303;
+    border: 12px solid #ee6a04;
+}
+
+.row2b>div:nth-child(1),
+.row3b>div:nth-child(1),
+.row3b>div:nth-child(2),
+.row4b>div:nth-child(1),
+.row4b>div:nth-child(2),
+.row4b>div:nth-child(3){
+    background-color: #e56262;
+}

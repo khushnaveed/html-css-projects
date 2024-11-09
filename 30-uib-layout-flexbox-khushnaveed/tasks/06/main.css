@@ -1,0 +1,23 @@
+html{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  width: fit-content;
+  height: 100%;
+  border: 5px solid red;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: row;
+  align-items: flex-end;
+}
+
+div {
+  flex-shrink: 1;
+  height: 100px;
+  background-color: darkgray;
+  margin: 1em;
+  border: 2px solid red;
+  text-align: center;
+}

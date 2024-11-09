@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.whole-page{
+    padding: 20px 300px 20px 300px;
+}
+
+/* Main background */
+body {
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  color: white;
+  background-color: #1a1a1a;
+}
+
+/* MovieTube heading */
+header {
+  background-color: #000000;
+  padding: 10px;
+}
+
+/* Content area*/
+.content-area {
+  background-color: #4b4b4b;
+}
+
+/* Sidebar */
+.sidebar {
+  color: #000000;
+  background-color: #eeeeee;
+  margin: 10px;
+}
+
+/* menu options on navbar top and sidebar */
+.navbar-top h3,
+.sidebar h3,
+h4{
+    padding: 15px;
+    cursor: pointer;
+}
+
+/* Movie card/title */
+.thumbnail h4 {
+  background-color: #1a1a1a;
+}
+
+/* -----------------------Flex containers---------------------------- */
+
+/* flex container for the genre selection on the top */
+.navbar-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* flex container for sidebar and movie list */
+.sidebar_and_movielist{
+    display: flex;
+}
+
+/* flex container for the movie list */
+.movielist{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* flex container for the individual movie card */
+.thumbnail{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: fit-content;
+    width: 30%;
+    margin: 15px;
+    flex-wrap: wrap;
+}
+
+.thumbnail div{
+    height: 25vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* media query for the thumbail with the small screen size */
+@media (max-width:927px){
+    .thumbnail{
+        width: 200px;
+    }
+
+}

@@ -1,0 +1,18 @@
+body{
+  display: flex;
+  width: fit-content;
+  border: 5px solid red;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+div {
+  flex-shrink: 1;
+  height: 100px;
+  background-color: darkgray;
+  margin: 1em;
+  border: 2px solid red;
+  text-align: center;
+}
+
+

@@ -1,0 +1,30 @@
+body{
+    background-color: #f1d4c1;
+}
+header{
+    background-color: #ecb896;
+    border: double rgb(226, 64, 43);
+    text-align: center;
+    font-family:fantasy;
+    font-style: italic;
+}
+
+section>h3{
+    background-color: rgb(235, 230, 162);
+    text-align: center;
+    border: double sandybrown;
+    padding: 15px;
+}
+
+.container{
+    text-align: center;
+}
+.container img{
+    width: 40vw;
+    height: 50vh;
+
+}
+p{
+    font-size: large;
+    text-align: center;
+}

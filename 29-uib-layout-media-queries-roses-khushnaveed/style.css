@@ -1,0 +1,55 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  text-align: center;
+}
+
+img {
+  width: 70%;
+}
+
+h1 {
+  color: white;
+}
+
+/* colorful roses */
+@media (min-width: 901px) {
+  body {
+    background: linear-gradient(hotpink, #d8eefd);
+    background-repeat: no-repeat;
+  }
+
+  .blue,
+  .red {
+    display: none;
+  }
+}
+
+/* blue roses */
+@media (min-width: 601px) and (max-width: 900px) {
+  body {
+    background: linear-gradient(to right, black, blue);
+    background-repeat: no-repeat;
+  }
+
+  .color,
+  .red {
+    display: none;
+  }
+}
+
+/* red roses */
+@media (max-width: 600px) {
+  body {
+    background: linear-gradient(140deg, black, red);
+    background-repeat: no-repeat;
+  }
+
+  .color,
+  .blue {
+    display: none;
+  }
+}

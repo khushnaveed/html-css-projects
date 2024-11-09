@@ -1,0 +1,123 @@
+@font-face {
+    src: url(./Roboto/Roboto-Thin.ttf);
+    font-family: roboto-thin;
+}
+/* --------------------------------------------- */
+body{
+    background-color: black;
+    font-family: roboto-thin;
+}
+
+.yellow_box{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgoldenrodyellow;
+    border-radius: 3%;
+    margin: 2%;
+    padding: 2%;
+    
+}
+/* --------------------------------------------- */
+
+/* 3 sections -> setting height and width */
+.section1, .section2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.section1{
+    width: 45%;
+}
+
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 35%;
+}
+
+.section3{
+    display: flex;
+    align-items: flex-end;
+    width: 10%;
+    flex-wrap: wrap;
+    text-align: center;
+}
+/* --------------------------------------------- */
+
+/* section 1 -> Language icons */
+.languages{
+    display: flex;
+    flex-direction: row;
+}
+
+h4{
+    border: 1px solid black;
+    border-radius: 10em;
+    font-size: 1.2em;
+    padding: 1em;
+    margin: 1em;
+    font-family: roboto, sans-serif;
+}
+
+h4:hover{
+    color: white;
+    background-color: black;
+}
+
+/* Section 1 -> Main heading */
+.section1 p{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bolder;
+    font-size: 8em;
+    margin: 0;
+}
+.section1 p span:nth-child(1){
+    color: #164e16;
+}
+
+.section1 p span:nth-child(2){
+    color: #000000;
+}
+
+.section1 p span:nth-child(3){
+    color: #4e3a16;
+}
+
+/* Section 1 -> 2nd heading */
+.section1 p:nth-child(3),
+.section2{
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0%;
+}
+/* --------------------------------------------- */
+
+/* Section 2 -> Image */
+img{
+    width: 20vw;
+    margin:0%;
+    padding-top: 10%;
+}
+
+.section2 p{
+    text-decoration: underline red;
+    padding-bottom: 2px;
+}
+/* --------------------------------------------- */
+
+/* Section 3 -> Button */
+button{
+    background-color: black;
+    color: white;
+    border-radius: 2em;    
+    padding: 20% 40% 20% 40%;
+}
+
+button:hover{
+    background-color: #f4ba6e;
+    color: black
+}

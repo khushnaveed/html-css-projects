@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eaf2a6;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    @for $i from 1 through 30{
+        div:nth-of-type(#{$i}){
+            height: 100 + random(200) + px;
+            border-radius: (3 + random(5)) + px; //4 to 8
+            animation: change-height 2s ease-in-out infinite;
+        }
+    }
+}
+
+main > div {
+   
+    width: 20px;
+    background: purple;
+    
+}
+
+main > div:nth-of-type(odd) {
+    background: radial-gradient(circle at -5px 30px, #c57eda, #730092);
+    align-self: flex-start;
+    // move 12 px up
+    transform: translateY(-12px);
+}
+
+main > div:nth-of-type(even) {
+    background: radial-gradient(circle at 10px 300px, #ffffff, #ff00ac);
+    align-self: flex-end;
+    // move 12 px down
+    transform: translateY(12px);
+}
+
+// Keyframes for height animation
+@keyframes change-height {
+    50%{
+        height: 0px;
+    }
+}

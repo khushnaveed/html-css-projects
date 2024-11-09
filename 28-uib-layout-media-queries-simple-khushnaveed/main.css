@@ -1,0 +1,84 @@
+main {
+  margin: 15px;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: 20px;
+  border: 10px solid black;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+/* Task 1 : Create CSS breakpoints so that the border of the <main> element has the corresponding effect, for the following screen widths*/
+
+@media (min-width: 0px) and (max-width: 375px) {
+  main {
+    border: 10px solid red;
+  }
+}
+
+@media (min-width: 376px) and (max-width: 425px) {
+  main {
+    border: 10px solid blue;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  main {
+    border: 10px solid green;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  main {
+    border: 10px solid yellow;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  main {
+    border: 10px solid hotpink;
+  }
+}
+
+@media (min-width: 1440px) {
+  main {
+    border: 10px solid yellow;
+  }
+}
+
+/* Task 2:  Create CSS breakpoints so that the background of the <body> element has the corresponding effect, for the following screen widths*/
+
+@media (min-width: 0px) and (max-width: 360px) {
+  body {
+    background: lightpink;
+  }
+}
+
+@media (min-width: 501px) and (max-width: 1000px) {
+  body {
+    background: lightblue;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    background: lightgreen;
+  }
+}
+
+
+/* Task 3:  Create CSS breakpoints so that the <h3> element has the corresponding effect, for the following screen widths*/
+
+@media (min-width: 0px) and (max-width: 360px) {
+  h3{
+    display: none;
+  }
+}
+
+@media (min-width: 361px) {
+  h3{
+    display:block;
+  }
+}
